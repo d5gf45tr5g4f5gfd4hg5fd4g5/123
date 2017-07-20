@@ -351,12 +351,11 @@ Intro Section
 }
 
 .template-info a.btn-primary {
-    position: absolute;
+   
     bottom: -80px;
     display: inline-block;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+   
 }
 
 .screens {
@@ -377,7 +376,7 @@ Intro Section
 .screens span:nth-child(1) {
     left: calc(50% - 510px);
     -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+    
     margin-top: 30px;
 }
 
@@ -544,7 +543,9 @@ ul.memphis-parallax li {
 .slider-demo.demo::after {
     content: "معرفی طرح بیمه های عمر";
 }
-
+.slider-demo2.demo::after {
+    content: "دستور العمل بیمه تکمیلی بیمه عمر ";
+}
 .slider-demo1.demo::after {
     content: "هدف از ارائه طرح ";
 }
