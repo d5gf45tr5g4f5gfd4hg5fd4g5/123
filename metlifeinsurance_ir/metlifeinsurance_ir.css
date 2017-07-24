@@ -156,6 +156,7 @@ section {
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
+    display: inline-block;
 }
 
 .btn-primary:hover,
